@@ -7,7 +7,7 @@
 
 .header_menu {
   display: flex;
-  justify-self: center;
+  justify-self: start;
 }
 
 .header_menu-list {
@@ -33,23 +33,22 @@
 
 .header__logo {
   display: block;
-  padding-left: 36.52px;
+  justify-self: center;
 }
 
 .header_logo-image {
-  width: 124.05px;
-  height: 94.84px;
+  width: 148px;
+  height: auto;
 }
 
 .header_contact {
-  padding-left: 184px;
+  justify-self: end;
+  list-style-type: none;
 }
 
 .header_contact-item {
   font-size: 18px;
-  line-height: 24.3px;
-  letter-spacing: 0;
-  list-style-type: none;
+  line-height: 24px;
   font-style: normal;
 }
 
@@ -62,7 +61,7 @@
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  min-height: 757px;
 }
 
 .overlay {
@@ -75,14 +74,13 @@
 .cover_title {
   display: flex;
   flex-direction: column;
-  padding: 165px 50px 106px;
+  padding: 165px 50px 135px;
   gap: 20px;
-  text-align: center;
   color: #fff;
   font-size: 100px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 115%;
+  line-height: 115px;
   letter-spacing: 30px;
   z-index: 2;
 }
@@ -146,7 +144,7 @@
   line-height: 100%;
   text-transform: uppercase;
   padding-bottom: 27px;
-  padding-left: 64px;
+  padding-left: 40px;
 }
 
 .lots__card-list {
@@ -154,7 +152,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  padding: 0 0 30px;
+  padding: 0 0 30px 0;
 }
 
 .lots__card-list-item {
@@ -212,14 +210,14 @@
 
 .lots__look-more-link {
   display: block;
-  padding-left: 64px;
+  padding-left: 40px;
   font-size: 20px;
   line-height: 100%;
   color: #000;
 }
 
 .about {
-  padding: 35px 24px 0;
+  padding: 120px 24px 0;
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
@@ -246,33 +244,31 @@
   text-transform: uppercase;
   font-weight: 700;
   line-height: 100%;
-  padding-top: 136px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .about__text {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  gap: 24px;
+  gap: 25px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: start;
-  padding: 180px 50px 82px;
+  padding: 180px 50px 90px;
 }
 
 .footer_contact {
-  font-style: normal;
-  padding-left: 0px;
+  list-style-type: none;
 }
 
 .footer_menu {
-  padding-left: 154px;
+  justify-self: center;
 }
 
 .footer_menu-list {
@@ -285,16 +281,10 @@
   font-size: 18px;
   font-weight: 400;
   text-align: center;
-  line-height: normal;
-  white-space: nowrap;
 }
 
-.footer_menu-link {
-  text-decoration: none;
-}
 
 .footer_social {
-  padding-left: 177.5px;
   justify-self: end;
   list-style: none;
   display: flex;
